@@ -23,7 +23,7 @@ const Htinputbox = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-[80vh]">
+    <div className="flex flex-col items-center justify-center min-h-[80vh] mx-5">
     <div className="w-full max-w-md">
       <div className="bg-white shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4" >
         <div className="">

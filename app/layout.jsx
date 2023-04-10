@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar"
 import "../public/globals.css"
+import Footer from "@/components/Footer"
 
 export const metadata = {
   title: 'Jntuh Results',
@@ -14,7 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
-
+        <Footer />
       </body>
     </html>
   )
